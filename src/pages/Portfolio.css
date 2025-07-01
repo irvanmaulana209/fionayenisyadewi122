@@ -1,0 +1,61 @@
+.portfolio-container {
+  background-color: #1abc9c;
+  min-height: 100vh;
+  padding: 3rem 1rem;
+  text-align: center;
+  color: white;
+}
+
+.profile-card {
+  max-width: 500px;
+  margin: 0 auto;
+}
+
+.avatar {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  margin-bottom: 1rem;
+}
+
+.profile-card h1 {
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin-bottom: 1rem;
+}
+
+.check-icon {
+  font-size: 1.5rem;
+  margin: 1rem 0;
+}
+
+.check-icon i {
+  color: #ffffff;
+  background: #16a085;
+  border-radius: 50%;
+  padding: 0.3rem;
+}
+
+.profile-card p {
+  font-size: 1rem;
+  margin-bottom: 2rem;
+}
+
+.project-list {
+  margin-top: 3rem;
+}
+
+.project-list h2 {
+  font-size: 1.3rem;
+  color: white;
+}
+
+.project-list li {
+  margin-bottom: 1rem;
+}
+
+.instagram-link a {
+  color: white;
+  font-weight: bold;
+  text-decoration: underline;
+}

@@ -1,0 +1,133 @@
+/* Contact.css */
+
+.contact-page {
+  background-color: #f5f7fa;
+  font-family: 'Segoe UI', sans-serif;
+  color: #333;
+  padding: 2rem;
+  text-align: center;
+}
+
+h1 {
+  font-size: 2.5rem;
+  font-weight: bold;
+  color: #2c3e50;
+  margin-bottom: 1rem;
+}
+
+.contact-icon-line {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 1rem 0;
+}
+
+.line {
+  width: 60px;
+  height: 2px;
+  background-color: #2c3e50;
+  margin: 0 10px;
+}
+
+.contact-icon {
+  font-size: 24px;
+  color: #2c3e50;
+}
+
+.contact-desc {
+  margin-bottom: 2rem;
+  color: #2c3e50;
+}
+
+.contact-desc a {
+  color: #4e54c8;
+  text-decoration: none;
+}
+
+.contact-form {
+  margin-bottom: 3rem;
+}
+
+.form-field {
+  position: relative;
+  margin: 1rem auto;
+  width: 300px;
+}
+
+.form-field input,
+.form-field textarea {
+  width: 100%;
+  padding: 0.75rem;
+  border: 2px solid #ccc;
+  border-radius: 4px;
+  outline: none;
+  font-size: 1rem;
+  background: #fff;
+}
+
+.form-field label {
+  position: absolute;
+  top: -10px;
+  left: 10px;
+  background: #f5f7fa;
+  padding: 0 4px;
+  font-size: 0.9rem;
+  color: #666;
+}
+
+.contact-form button {
+  background-color: #2c3e50;
+  color: white;
+  border: none;
+  padding: 0.6rem 1rem;
+  border-radius: 4px;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+.contact-form button i {
+  margin-right: 5px;
+}
+
+/* Footer */
+
+.contact-footer {
+  background-color: #2c3e50;
+  color: white;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  padding: 2rem 1rem;
+  text-align: left;
+}
+
+.footer-section {
+  flex: 1 1 200px;
+  margin: 1rem;
+}
+
+.footer-section h3 {
+  font-size: 1.1rem;
+  margin-bottom: 1rem;
+  color: #ffffff;
+}
+
+.footer-section p {
+  color: #dddddd;
+}
+
+.social-icons {
+  display: flex;
+  gap: 1rem;
+}
+
+.social-icons a {
+  color: white;
+  font-size: 1.2rem;
+  transition: transform 0.3s ease;
+}
+
+.social-icons a:hover {
+  transform: scale(1.2);
+  color: #f39c12;
+}
