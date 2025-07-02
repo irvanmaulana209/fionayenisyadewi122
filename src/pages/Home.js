@@ -23,7 +23,7 @@ export default function Home() {
       </div>
 
       <div className="image-section">
-        <img src="/asset/fffff.jpg" alt="Fiona" />
+        <img src="/fffff.jpg" alt="Fiona" />
       </div>
     </div>
   );

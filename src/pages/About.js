@@ -4,22 +4,22 @@ import './About.css';
 const categories = [
   {
     title: 'Mission',
-    image: '/asset/mission.jpg',
+    image: '/mission.jpg',
     description: 'Setiap tujuan besar dimulai dari satu langkah kecil.Fokuskan energi untuk menembus targetmu!'
   },
   {
     title: 'Second Mission',
-    image: '/asset/mission1.jpg',
+    image: '/mission1.jpg',
     description: 'Dengan visi yang tajam dan strategi yang tepat, tidak ada mimpi yang terlalu jauh.'
   },
   {
     title: 'Values',
-    image: '/asset/values.jpg',
+    image: '/values.jpg',
     description: 'Nilai-nilai adalah kompas hidup. Pegang teguh integritas, dan arahmu akan selalu jelas.'
   },
   {
     title: 'Commitment',
-    image: '/asset/comen.jpg',
+    image: '/comen.jpg',
     description: 'Komitmen adalah bahan bakar utama untuk bertahan di jalur menuju sukses.'
   },
 ];
